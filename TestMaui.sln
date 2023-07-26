@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMaui", "TestMaui\TestMaui.csproj", "{89545E50-6909-40C4-9274-F6C63DA856A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89545E50-6909-40C4-9274-F6C63DA856A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89545E50-6909-40C4-9274-F6C63DA856A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89545E50-6909-40C4-9274-F6C63DA856A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89545E50-6909-40C4-9274-F6C63DA856A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
