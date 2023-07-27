@@ -4,5 +4,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
     xmlns:local="using:TestMaui.WinUI">
-
+    <maui:MauiWinUIApplication.Resources>
+    </maui:MauiWinUIApplication.Resources>
 </maui:MauiWinUIApplication>

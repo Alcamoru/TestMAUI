@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestMaui.SummonerInfoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenue !"
+                   ></Label>
+            <Label x:Name="summonerNameLabel"></Label>
+            <Label x:Name="summonerLevelLabel"></Label>
+            <Label x:Name="summonerTier"></Label>
+            <Label x:Name="Defaites"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

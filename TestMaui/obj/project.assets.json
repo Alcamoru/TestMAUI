@@ -226,6 +226,15 @@
           }
         }
       },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -2178,6 +2187,15 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -4134,6 +4152,15 @@
           }
         }
       },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -6086,6 +6113,15 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -8042,6 +8078,15 @@
           }
         }
       },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -9994,6 +10039,15 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -11950,6 +12004,15 @@
           }
         }
       },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -13904,6 +13967,15 @@
           }
         }
       },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -15844,6 +15916,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-arm": {
@@ -16056,6 +16137,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       }
     },
@@ -16270,6 +16360,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-x64": {
@@ -16482,6 +16581,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       }
     },
@@ -16696,6 +16804,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
@@ -16908,6 +17025,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       }
     },
@@ -17122,6 +17248,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/win10-x64": {
@@ -17334,6 +17469,15 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       }
     },
@@ -17548,6 +17692,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
@@ -17760,6 +17913,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       }
     },
@@ -17974,6 +18136,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
@@ -18186,6 +18357,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       }
     },
@@ -18400,6 +18580,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
@@ -18612,6 +18801,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       }
     },
@@ -18826,6 +19024,15 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
@@ -19038,6 +19245,15 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       }
     },
@@ -19395,6 +19611,15 @@
           }
         }
       },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
       "System.Speech/7.0.0": {
         "type": "package",
         "compile": {
@@ -19744,6 +19969,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
       "System.Speech/7.0.0": {
         "type": "package",
         "compile": {
@@ -20085,6 +20319,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -20430,6 +20673,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
       "System.Speech/7.0.0": {
         "type": "package",
         "compile": {
@@ -20771,6 +21023,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -21116,6 +21377,15 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        }
+      },
       "System.Speech/7.0.0": {
         "type": "package",
         "compile": {
@@ -21457,6 +21727,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -21806,6 +22085,15 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "MingweiSamuel.Camille/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Camille.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Camille.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -23115,6 +23403,22 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "MingweiSamuel.Camille/2.8.0": {
+      "sha512": "2uM7RcZvkbwmBiLAACOdrm5DKCJF3i/NcneEnFFVwQ+hhwKQRTLudoI3ToEVbsKl532OIl5TC8fNLPgyKBv6Uw==",
+      "type": "package",
+      "path": "mingweisamuel.camille/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Camille.dll",
+        "lib/netcoreapp2.1/Camille.dll",
+        "lib/netcoreapp3.1/Camille.dll",
+        "lib/netstandard1.1/Camille.dll",
+        "lib/netstandard2.1/Camille.dll",
+        "mingweisamuel.camille.2.8.0.nupkg.sha512",
+        "mingweisamuel.camille.nuspec"
       ]
     },
     "System.Speech/7.0.0": {
@@ -25152,6 +25456,7 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
+      "MingweiSamuel.Camille >= 2.8.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -25171,7 +25476,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92"
+      "Microsoft.Maui.Graphics >= 7.0.92",
+      "MingweiSamuel.Camille >= 2.8.0"
     ],
     "net7.0-maccatalyst16.1": [
       "CommunityToolkit.Maui >= 5.2.0",
@@ -25180,7 +25486,8 @@
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92"
+      "Microsoft.Maui.Graphics >= 7.0.92",
+      "MingweiSamuel.Camille >= 2.8.0"
     ],
     "net7.0-windows10.0.19041": [
       "CommunityToolkit.Maui >= 5.2.0",
@@ -25191,7 +25498,8 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.92",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
+      "MingweiSamuel.Camille >= 2.8.0"
     ]
   },
   "packageFolders": {
@@ -25224,6 +25532,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -25286,6 +25595,10 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
+          },
+          "MingweiSamuel.Camille": {
+            "target": "Package",
+            "version": "[2.8.0, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -25408,6 +25721,10 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
+          },
+          "MingweiSamuel.Camille": {
+            "target": "Package",
+            "version": "[2.8.0, )"
           }
         },
         "imports": [
@@ -25475,6 +25792,10 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
+          },
+          "MingweiSamuel.Camille": {
+            "target": "Package",
+            "version": "[2.8.0, )"
           }
         },
         "imports": [
@@ -25553,6 +25874,10 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
+          },
+          "MingweiSamuel.Camille": {
+            "target": "Package",
+            "version": "[2.8.0, )"
           }
         },
         "imports": [

@@ -1,38 +1,35 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TestMaui.MainPage">
+             xmlns:local="clr-namespace:TestMaui.Controls"
+             x:Class="TestMaui.MainPage"
+             BackgroundColor="#0a3d62">
     <ContentPage.Content>
         <ScrollView>
-            <VerticalStackLayout
-                Spacing="25"
-                Padding="30,0">
-            
+            <StackLayout>
                 <Label
-                    x:Name="mainPageTitle"
-                    Text="Bienvenue sur Lolcord"
+                    Text="Quel est votre nom d'invocateur ?"
                     SemanticProperties.HeadingLevel="Level1"
-                    SemanticProperties.Description="Notre équipe vous souhaite la bienvenue sur Lolcord"
-                    HorizontalOptions="Center"></Label>
-            
-                <StackLayout>
-                    <Entry 
-                        x:Name="summonerNameEntry" 
+                    Margin="0, 80, 0, 0"
+                    FontSize="36"
+                    HorizontalOptions="Center" />
+                <local:CustomEntry
+                        x:Name="summonerNameEntry"
+                        BorderColor="Black"
+                        CornerRadius="50"
                         Placeholder="Entrez votre nom d'invocateur"
-                        BackgroundColor="White"
-                        PlaceholderColor="Black"
                         TextColor="Black"
-                        HorizontalOptions="Center"
+                        BackgroundColor="Transparent"
+                        PlaceholderColor="White"
+                        HorizontalOptions="Start"
                         FontSize="18"
-                        WidthRequest="200"
-                        Completed="SummonerNameEntry_OnCompleted"
-                    />
-
-                    <Button Text="Envoyer" 
-                            Clicked="OnSummonerClicked"
-                            HorizontalOptions="Center"
-                            WidthRequest="200"/>
-                </StackLayout>
+                        WidthRequest="300"
+                        Completed="OnEntryComplete"/>
+                <Button Text="Envoyer"
+                        Clicked="OnEntryComplete"
+                        HorizontalOptions="Center"
+                        WidthRequest="200" />
 
                 <Label
                     x:Name="Test"
@@ -41,8 +38,7 @@
                     SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                     FontSize="18"
                     HorizontalOptions="Center" />
-
-            </VerticalStackLayout>
+            </StackLayout>
         </ScrollView>
     </ContentPage.Content>
 

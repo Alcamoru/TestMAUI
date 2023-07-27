@@ -51,6 +51,11 @@
     <ItemGroup>
         <PackageReference Include="CommunityToolkit.Maui" Version="5.2.0" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+        <PackageReference Include="MingweiSamuel.Camille" Version="2.8.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Handlers\" />
     </ItemGroup>
 
 </Project>
