@@ -14,18 +14,25 @@
                     Margin="0, 80, 0, 0"
                     FontSize="36"
                     HorizontalOptions="Center" />
-                <local:CustomEntry
+                <Frame CornerRadius="12"
+                       Padding="0"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       BackgroundColor="White"
+                       BorderColor="Black">
+                    <Entry
                         x:Name="summonerNameEntry"
-                        BorderColor="Black"
-                        CornerRadius="50"
                         Placeholder="Entrez votre nom d'invocateur"
+                        PlaceholderColor="Black"
                         TextColor="Black"
                         BackgroundColor="Transparent"
-                        PlaceholderColor="White"
                         HorizontalOptions="Start"
                         FontSize="18"
-                        WidthRequest="300"
-                        Completed="OnEntryComplete"/>
+                        HeightRequest="60"
+                        WidthRequest="350"
+                        Completed="OnEntryComplete"></Entry>
+                </Frame>
+
                 <Button Text="Envoyer"
                         Clicked="OnEntryComplete"
                         HorizontalOptions="Center"

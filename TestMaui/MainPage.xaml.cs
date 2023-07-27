@@ -13,6 +13,7 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
+        summonerNameEntry.HorizontalTextAlignment = TextAlignment.Center;
     }
 
     private void OnEntryComplete(object sender, EventArgs e)
