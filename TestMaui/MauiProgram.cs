@@ -15,6 +15,7 @@ public static class MauiProgram
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                fonts.AddFont("SpiegelSans-7Bold_TRIAL.otf", "Spiegel");
             });
 
 #if DEBUG

@@ -16,9 +16,13 @@ public partial class SummonerInfoPage : ContentPage
     {
         InitializeComponent();
         var summonerStats = api.LeagueV4.GetLeagueEntriesForSummoner(Region.EUW, summoner.Id)[0];
-        summonerNameLabel.Text = "Nom d'invocateur: " + summoner.Name;
+        int profilIconId = summoner.ProfileIconId;
+        profileIcon.Source = ImageSource.FromUri(new Uri($"http://ddragon.leagueoflegends.com/cdn/13.11.1/img/profileicon/{profilIconId}.png"));
+        summonerNameLabel.Text = summonerStats.SummonerName + " en Ranked";
         summonerLevelLabel.Text = "Niveau" + summoner.SummonerLevel;
-        summonerTier.Text = summonerStats.Wins.ToString();
-        Defaites.Text = summonerStats.Losses.ToString();
+        summonerTierLabel.Text = "Tier" + summonerStats.Tier.ToLower();
+        summonerRankLabel.Text = "Rank" + summonerStats.Rank;
+        summonerWinsLabel.Text = "Wins" + summonerStats.Wins;
+        summonerLossesLabel.Text = "Losses" + summonerStats.Losses;
     }
 }

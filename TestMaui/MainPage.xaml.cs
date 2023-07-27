@@ -13,6 +13,7 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
+        summonerNameEntry.Unfocused += OnEntryUnfocused;
         summonerNameEntry.HorizontalTextAlignment = TextAlignment.Center;
     }
 
@@ -28,6 +29,11 @@ public partial class MainPage : ContentPage
             GetSummoner(summonerName);
         }
     }
+    
+    private void OnEntryUnfocused(object sender, FocusEventArgs e)
+    {
+        summonerNameEntry.Unfocus();
+    }
 
 
     private void GetSummoner(string summonerNameArg)
@@ -41,7 +47,6 @@ public partial class MainPage : ContentPage
         {
             var summoner = api.SummonerV4.GetBySummonerName(Region.EUW, summonerNameArg);
             Navigation.PushAsync(new SummonerInfoPage(api, summoner));
-            Test.Text = summonerNameArg;
             summonerNameEntry.Text = "";
         }
         catch (AggregateException e)

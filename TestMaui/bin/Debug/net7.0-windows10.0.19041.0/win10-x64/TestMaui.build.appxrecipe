@@ -736,6 +736,102 @@
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-2ExtraLightItalic_TRIAL.otf">
+      <PackagePath>SpiegelSans-2ExtraLightItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-2ExtraLight_TRIAL.otf">
+      <PackagePath>SpiegelSans-2ExtraLight_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-3LightItalic_TRIAL.otf">
+      <PackagePath>SpiegelSans-3LightItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-3Light_TRIAL.otf">
+      <PackagePath>SpiegelSans-3Light_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-4SemiLightItalic_TRIAL.otf">
+      <PackagePath>SpiegelSans-4SemiLightItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-4SemiLight_TRIAL.otf">
+      <PackagePath>SpiegelSans-4SemiLight_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-5RegularItalic_TRIAL.otf">
+      <PackagePath>SpiegelSans-5RegularItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-5Regular_TRIAL.otf">
+      <PackagePath>SpiegelSans-5Regular_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-6SemiBoldItalic_TRIAL.otf">
+      <PackagePath>SpiegelSans-6SemiBoldItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-6SemiBold_TRIAL.otf">
+      <PackagePath>SpiegelSans-6SemiBold_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-7BoldItalic_TRIAL.otf">
+      <PackagePath>SpiegelSans-7BoldItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-7Bold_TRIAL.otf">
+      <PackagePath>SpiegelSans-7Bold_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-8ExtraBoldItalic_TRIAL.otf">
+      <PackagePath>SpiegelSans-8ExtraBoldItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-8ExtraBold_TRIAL.otf">
+      <PackagePath>SpiegelSans-8ExtraBold_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-9BlackItalic_TRIAL.otf">
+      <PackagePath>SpiegelSans-9BlackItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-9Black_TRIAL.otf">
+      <PackagePath>SpiegelSans-9Black_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-2ExtraLightItalic_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-2ExtraLightItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-2ExtraLight_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-2ExtraLight_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-3LightItalic_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-3LightItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-3Light_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-3Light_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-4SemiLightItalic_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-4SemiLightItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-4SemiLight_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-4SemiLight_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-5RegularItalic_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-5RegularItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-5Regular_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-5Regular_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-6SemiBoldItalic_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-6SemiBoldItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-6SemiBold_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-6SemiBold_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-7BoldItalic_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-7BoldItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-7Bold_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-7Bold_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-8ExtraBoldItalic_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-8ExtraBoldItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-8ExtraBold_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-8ExtraBold_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-9BlackItalic_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-9BlackItalic_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-9Black_TRIAL.otf">
+      <PackagePath>SpiegelSansCd-9Black_TRIAL.otf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>

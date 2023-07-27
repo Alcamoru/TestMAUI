@@ -2,7 +2,6 @@
 
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:TestMaui.Controls"
              x:Class="TestMaui.MainPage"
              BackgroundColor="#0a3d62">
     <ContentPage.Content>
@@ -10,10 +9,14 @@
             <StackLayout>
                 <Label
                     Text="Quel est votre nom d'invocateur ?"
+                    WidthRequest="350"
+                    FontFamily="Spiegel"
                     SemanticProperties.HeadingLevel="Level1"
                     Margin="0, 80, 0, 0"
-                    FontSize="36"
-                    HorizontalOptions="Center" />
+                    FontSize="24"
+                    CharacterSpacing="1.5"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"/>
                 <Frame CornerRadius="12"
                        Padding="0"
                        HorizontalOptions="Center"
@@ -23,28 +26,31 @@
                     <Entry
                         x:Name="summonerNameEntry"
                         Placeholder="Entrez votre nom d'invocateur"
-                        PlaceholderColor="Black"
+                        PlaceholderColor="#666666"
                         TextColor="Black"
                         BackgroundColor="Transparent"
                         HorizontalOptions="Start"
+                        HorizontalTextAlignment="Start"
+                        FontFamily="Spiegel"
+                        CharacterSpacing="2"
                         FontSize="18"
                         HeightRequest="60"
                         WidthRequest="350"
-                        Completed="OnEntryComplete"></Entry>
+                        Completed="OnEntryComplete"
+                        Unfocused="OnEntryUnfocused"
+                        ></Entry>
                 </Frame>
 
                 <Button Text="Envoyer"
+                        CornerRadius="12"
+                        TextColor="Black"
+                        FontFamily="Spiegel"
+                        CharacterSpacing="1.5"
+                        FontSize="24"
+                        BackgroundColor="#E55039"
                         Clicked="OnEntryComplete"
                         HorizontalOptions="Center"
-                        WidthRequest="200" />
-
-                <Label
-                    x:Name="Test"
-                    Text="Bienvenue"
-                    SemanticProperties.HeadingLevel="Level2"
-                    SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                    FontSize="18"
-                    HorizontalOptions="Center" />
+                        WidthRequest="350" />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
