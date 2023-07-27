@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-27T11:31:21.435</Modified>
+      <Modified>2023-07-27T11:44:25.042</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-27T11:31:21.127</Modified>
+      <Modified>2023-07-27T11:44:24.763</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TestMaui.runtimeconfig.json">
       <PackagePath>TestMaui.runtimeconfig.json</PackagePath>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TestMaui.dll">
       <PackagePath>TestMaui.dll</PackagePath>
-      <Modified>2023-07-27T11:31:20.118</Modified>
+      <Modified>2023-07-27T11:44:23.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TestMaui.exe</PackagePath>
-      <Modified>2023-07-27T11:31:20.128</Modified>
+      <Modified>2023-07-27T11:44:23.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TestMaui.deps.json">
       <PackagePath>TestMaui.deps.json</PackagePath>
-      <Modified>2023-07-27T11:29:02.860</Modified>
+      <Modified>2023-07-27T11:44:24.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
