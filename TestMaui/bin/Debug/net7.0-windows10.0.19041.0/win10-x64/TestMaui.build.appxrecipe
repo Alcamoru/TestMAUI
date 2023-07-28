@@ -985,6 +985,15 @@
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lose.scale-100.png">
+      <PackagePath>lose.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\smurf.scale-100.png">
+      <PackagePath>smurf.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\win.scale-100.png">
+      <PackagePath>win.scale-100.png</PackagePath>
+    </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Users\alcam\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix">

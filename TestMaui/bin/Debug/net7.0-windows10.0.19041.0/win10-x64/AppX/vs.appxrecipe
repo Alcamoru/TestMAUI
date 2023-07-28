@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-27T18:13:35.723</Modified>
+      <Modified>2023-07-28T09:21:08.120</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-27T18:13:35.221</Modified>
+      <Modified>2023-07-28T08:53:20.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TestMaui.runtimeconfig.json">
       <PackagePath>TestMaui.runtimeconfig.json</PackagePath>
-      <Modified>2023-07-27T11:50:55.632</Modified>
+      <Modified>2023-07-28T08:05:48.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TestMaui.dll">
       <PackagePath>TestMaui.dll</PackagePath>
-      <Modified>2023-07-27T18:13:33.581</Modified>
+      <Modified>2023-07-28T09:21:06.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TestMaui.exe</PackagePath>
-      <Modified>2023-07-27T18:13:33.615</Modified>
+      <Modified>2023-07-28T09:21:06.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TestMaui.deps.json">
       <PackagePath>TestMaui.deps.json</PackagePath>
-      <Modified>2023-07-27T16:23:24.292</Modified>
+      <Modified>2023-07-28T08:19:49.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1111,187 +1111,187 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-07-27T11:50:48.354</Modified>
+      <Modified>2023-07-27T18:29:11.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.684</Modified>
+      <Modified>2023-07-27T18:29:11.586</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.700</Modified>
+      <Modified>2023-07-27T18:29:11.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.710</Modified>
+      <Modified>2023-07-27T18:29:11.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.746</Modified>
+      <Modified>2023-07-27T18:29:11.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.822</Modified>
+      <Modified>2023-07-27T18:29:11.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.459</Modified>
+      <Modified>2023-07-27T18:29:11.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.464</Modified>
+      <Modified>2023-07-27T18:29:11.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.483</Modified>
+      <Modified>2023-07-27T18:29:11.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.469</Modified>
+      <Modified>2023-07-27T18:29:11.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.473</Modified>
+      <Modified>2023-07-27T18:29:11.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.425</Modified>
+      <Modified>2023-07-27T18:29:11.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.429</Modified>
+      <Modified>2023-07-27T18:29:11.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.451</Modified>
+      <Modified>2023-07-27T18:29:11.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.434</Modified>
+      <Modified>2023-07-27T18:29:11.331</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.444</Modified>
+      <Modified>2023-07-27T18:29:11.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.377</Modified>
+      <Modified>2023-07-27T18:29:11.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.383</Modified>
+      <Modified>2023-07-27T18:29:11.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.389</Modified>
+      <Modified>2023-07-27T18:29:11.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.393</Modified>
+      <Modified>2023-07-27T18:29:11.290</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.398</Modified>
+      <Modified>2023-07-27T18:29:11.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.401</Modified>
+      <Modified>2023-07-27T18:29:11.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.405</Modified>
+      <Modified>2023-07-27T18:29:11.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.422</Modified>
+      <Modified>2023-07-27T18:29:11.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.410</Modified>
+      <Modified>2023-07-27T18:29:11.311</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.415</Modified>
+      <Modified>2023-07-27T18:29:11.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.576</Modified>
+      <Modified>2023-07-27T18:29:11.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.583</Modified>
+      <Modified>2023-07-27T18:29:11.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.589</Modified>
+      <Modified>2023-07-27T18:29:11.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.598</Modified>
+      <Modified>2023-07-27T18:29:11.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.613</Modified>
+      <Modified>2023-07-27T18:29:11.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.524</Modified>
+      <Modified>2023-07-27T18:29:11.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.528</Modified>
+      <Modified>2023-07-27T18:29:11.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.552</Modified>
+      <Modified>2023-07-27T18:29:11.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.556</Modified>
+      <Modified>2023-07-27T18:29:11.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.571</Modified>
+      <Modified>2023-07-27T18:29:11.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.490</Modified>
+      <Modified>2023-07-27T18:29:11.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.493</Modified>
+      <Modified>2023-07-27T18:29:11.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.501</Modified>
+      <Modified>2023-07-27T18:29:11.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.510</Modified>
+      <Modified>2023-07-27T18:29:11.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.519</Modified>
+      <Modified>2023-07-27T18:29:11.423</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.618</Modified>
+      <Modified>2023-07-27T18:29:11.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.626</Modified>
+      <Modified>2023-07-27T18:29:11.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.634</Modified>
+      <Modified>2023-07-27T18:29:11.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.647</Modified>
+      <Modified>2023-07-27T18:29:11.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.675</Modified>
+      <Modified>2023-07-27T18:29:11.576</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
@@ -1312,6 +1312,18 @@
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-07-27T11:50:48.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lose.scale-100.png">
+      <PackagePath>lose.scale-100.png</PackagePath>
+      <Modified>2023-07-26T16:28:41.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\smurf.scale-100.png">
+      <PackagePath>smurf.scale-100.png</PackagePath>
+      <Modified>2023-07-26T16:32:57.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\win.scale-100.png">
+      <PackagePath>win.scale-100.png</PackagePath>
+      <Modified>2023-07-26T16:25:27.617</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

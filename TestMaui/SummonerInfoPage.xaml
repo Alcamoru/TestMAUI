@@ -3,31 +3,61 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TestMaui.SummonerInfoPage"
-             BackgroundColor="#0a3d62">
+             BackgroundColor="#2f3640">
+    
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <Label Text="Vos statistiques"
-                       HorizontalOptions="Center"></Label>
-                <Frame CornerRadius="15"
-                       Padding="0"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Center">
-                    <Image x:Name="profileIcon"
-                           WidthRequest="120"
-                           HeightRequest="120"
-                    ></Image>
-                </Frame>
-                <Label x:Name="summonerLevelLabel"></Label>
-                
-                <StackLayout x:Name="Stats">
-                    <Label x:Name="summonerNameLabel"></Label>
-                    <Label x:Name="summonerTierLabel"></Label>
-                    <Label x:Name="summonerRankLabel"></Label>
-                    <Label x:Name="summonerWinsLabel"></Label>
-                    <Label x:Name="summonerLossesLabel"></Label>
-                </StackLayout>
-            </StackLayout>
-        </ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition 
+                    Height="200">
+                    
+                </RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="200"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Frame
+                Grid.Row="0"
+                Grid.Column="0"
+                CornerRadius="15"
+                Padding="0"
+                WidthRequest="120"
+                HeightRequest="120"
+                VerticalOptions="Center">
+                <Image x:Name="profileIcon"
+                ></Image>
+            </Frame>
+            <HorizontalStackLayout
+                x:Name="menuLayout"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                Spacing="20">
+                <Button 
+                    Text="Profil"
+                    CornerRadius="12"
+                    TextColor="Black"
+                    FontFamily="Spiegel"
+                    CharacterSpacing="1.5"
+                    FontSize="16"
+                    BackgroundColor="#E55039"
+                        WidthRequest="200"></Button>
+                <Button 
+                    Text="Champions"
+                    CornerRadius="12"
+                    TextColor="Black"
+                    FontFamily="Spiegel"
+                    CharacterSpacing="1.5"
+                    FontSize="16"
+                    BackgroundColor="#E55039"
+                    WidthRequest="200"></Button>
+            </HorizontalStackLayout>
+            
+            
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
