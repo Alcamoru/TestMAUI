@@ -2,6 +2,38 @@
   "version": 3,
   "targets": {
     "net7.0-android33.0": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -226,13 +258,13 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -1965,6 +1997,38 @@
       }
     },
     "net7.0-android33.0/android-arm": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -2189,13 +2253,13 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -3928,6 +3992,38 @@
       }
     },
     "net7.0-android33.0/android-arm64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -4152,13 +4248,13 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -5891,6 +5987,38 @@
       }
     },
     "net7.0-android33.0/android-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -6115,13 +6243,13 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -7854,6 +7982,38 @@
       }
     },
     "net7.0-android33.0/android-x86": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -8078,13 +8238,13 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -9817,6 +9977,38 @@
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -10041,13 +10233,13 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -11780,6 +11972,38 @@
       }
     },
     "net7.0-android33.0/maccatalyst-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -12004,13 +12228,13 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -13743,6 +13967,38 @@
       }
     },
     "net7.0-android33.0/win10-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -13967,13 +14223,13 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -15706,6 +15962,38 @@
       }
     },
     "net7.0-ios16.1": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -15917,17 +16205,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-ios16.1/android-arm": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -16139,17 +16459,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-ios16.1/android-arm64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -16361,17 +16713,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-ios16.1/android-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -16583,17 +16967,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-ios16.1/android-x86": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -16805,17 +17221,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-ios16.1/iossimulator-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -17027,17 +17475,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -17249,17 +17729,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-ios16.1/win10-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -17471,17 +17983,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-maccatalyst16.1": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -17693,17 +18237,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -17915,17 +18491,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-arm64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -18137,17 +18745,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -18359,17 +18999,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/android-x86": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -18581,17 +19253,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -18803,17 +19507,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -19025,17 +19761,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-maccatalyst16.1/win10-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -19247,17 +20015,49 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       }
     },
     "net7.0-windows10.0.19041": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -19611,13 +20411,13 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -19644,6 +20444,38 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -19969,13 +20801,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -19996,6 +20828,38 @@
       }
     },
     "net7.0-windows10.0.19041/android-arm64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -20321,13 +21185,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -20348,6 +21212,38 @@
       }
     },
     "net7.0-windows10.0.19041/android-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -20673,13 +21569,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -20700,6 +21596,38 @@
       }
     },
     "net7.0-windows10.0.19041/android-x86": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -21025,13 +21953,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -21052,6 +21980,38 @@
       }
     },
     "net7.0-windows10.0.19041/iossimulator-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -21377,13 +22337,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -21404,6 +22364,38 @@
       }
     },
     "net7.0-windows10.0.19041/maccatalyst-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -21729,13 +22721,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -21756,6 +22748,38 @@
       }
     },
     "net7.0-windows10.0.19041/win10-x64": {
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {}
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {}
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "type": "package",
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {}
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -22087,13 +23111,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {}
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {}
         }
       },
       "System.Speech/7.0.0": {
@@ -22115,6 +23139,75 @@
     }
   },
   "libraries": {
+    "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+      "sha512": "FA1Z4O4/JLn9OXPsEV0oXt6tX8GmeGNc3bRATGYcghDTjs6FdO7A2nbOTcoIaUmjwmlHBjg/OY/Ay2gM3hpx4g==",
+      "type": "package",
+      "path": "camille.core/3.0.0-nightly-2022-10-18-9ee3467362",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Camille.png",
+        "LICENSE-APACHE.txt",
+        "LICENSE-MIT.txt",
+        "LICENSE.txt",
+        "README.md",
+        "camille.core.3.0.0-nightly-2022-10-18-9ee3467362.nupkg.sha512",
+        "camille.core.nuspec",
+        "lib/net45/Camille.Core.dll",
+        "lib/net461/Camille.Core.dll",
+        "lib/net5.0/Camille.Core.dll",
+        "lib/net6.0/Camille.Core.dll",
+        "lib/netcoreapp3.1/Camille.Core.dll",
+        "lib/netstandard1.1/Camille.Core.dll",
+        "lib/netstandard2.1/Camille.Core.dll"
+      ]
+    },
+    "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+      "sha512": "S12FmTSpCY86E2LWv6gkvH4Uzvos6Kn1dnanWHwCaQUETZS0AlL84VZhkTuMe1JBFFNM005FDn7eK6rZ8B71xQ==",
+      "type": "package",
+      "path": "camille.enums/3.0.0-nightly-2022-10-18-9ee3467362",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Camille.png",
+        "LICENSE-APACHE.txt",
+        "LICENSE-MIT.txt",
+        "LICENSE.txt",
+        "README.md",
+        "camille.enums.3.0.0-nightly-2022-10-18-9ee3467362.nupkg.sha512",
+        "camille.enums.nuspec",
+        "lib/net45/Camille.Enums.dll",
+        "lib/net461/Camille.Enums.dll",
+        "lib/net5.0/Camille.Enums.dll",
+        "lib/net6.0/Camille.Enums.dll",
+        "lib/netcoreapp3.1/Camille.Enums.dll",
+        "lib/netstandard1.1/Camille.Enums.dll",
+        "lib/netstandard2.1/Camille.Enums.dll"
+      ]
+    },
+    "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+      "sha512": "zOqUnwGH1gYd/rZSqylcA0q3TsAKz0xNAJSUl9BHJKnsyJzYAYQD9+U8j+xhSDG6rq/hA2BpFRRA3exbbUTSoQ==",
+      "type": "package",
+      "path": "camille.riotgames/3.0.0-nightly-2022-10-18-9ee3467362",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Camille.png",
+        "LICENSE-APACHE.txt",
+        "LICENSE-MIT.txt",
+        "LICENSE.txt",
+        "README.md",
+        "camille.riotgames.3.0.0-nightly-2022-10-18-9ee3467362.nupkg.sha512",
+        "camille.riotgames.nuspec",
+        "lib/net45/Camille.RiotGames.dll",
+        "lib/net461/Camille.RiotGames.dll",
+        "lib/net5.0/Camille.RiotGames.dll",
+        "lib/net6.0/Camille.RiotGames.dll",
+        "lib/netcoreapp3.1/Camille.RiotGames.dll",
+        "lib/netstandard1.1/Camille.RiotGames.dll",
+        "lib/netstandard2.1/Camille.RiotGames.dll"
+      ]
+    },
     "CommunityToolkit.Maui/5.2.0": {
       "sha512": "sxnvz+lFqTAzc+3u4j7JuEDiDxybMqbjCRD/OcMyln6YJ09OPwXoCJ8qxFG98C9ph9ZSChE3/fsVG+jlnkMOHA==",
       "type": "package",
@@ -23405,20 +24498,20 @@
         "tools/x86/GenXbf.dll"
       ]
     },
-    "MingweiSamuel.Camille/2.8.0": {
-      "sha512": "2uM7RcZvkbwmBiLAACOdrm5DKCJF3i/NcneEnFFVwQ+hhwKQRTLudoI3ToEVbsKl532OIl5TC8fNLPgyKBv6Uw==",
+    "MingweiSamuel.TokenBucket/1.0.2": {
+      "sha512": "gD+DrZw+HdKQ5D4NTYSaU6Er58nvClYJIoCOn/+gpKzlA2YBaaDI1xyQC4u1kaQ5b3/Onitif1sBgRfqpbWHTQ==",
       "type": "package",
-      "path": "mingweisamuel.camille/2.8.0",
+      "path": "mingweisamuel.tokenbucket/1.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/Camille.dll",
-        "lib/netcoreapp2.1/Camille.dll",
-        "lib/netcoreapp3.1/Camille.dll",
-        "lib/netstandard1.1/Camille.dll",
-        "lib/netstandard2.1/Camille.dll",
-        "mingweisamuel.camille.2.8.0.nupkg.sha512",
-        "mingweisamuel.camille.nuspec"
+        "README.md",
+        "lib/net45/MingweiSamuel.TokenBucket.dll",
+        "lib/net461/MingweiSamuel.TokenBucket.dll",
+        "lib/netstandard1.0/MingweiSamuel.TokenBucket.dll",
+        "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll",
+        "mingweisamuel.tokenbucket.1.0.2.nupkg.sha512",
+        "mingweisamuel.tokenbucket.nuspec"
       ]
     },
     "System.Speech/7.0.0": {
@@ -25449,6 +26542,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "Camille.RiotGames >= 3.0.0-nightly-2022-10-18-9ee3467362",
       "CommunityToolkit.Maui >= 5.2.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -25456,7 +26550,6 @@
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
-      "MingweiSamuel.Camille >= 2.8.0",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -25470,26 +26563,27 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "Camille.RiotGames >= 3.0.0-nightly-2022-10-18-9ee3467362",
       "CommunityToolkit.Maui >= 5.2.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92",
-      "MingweiSamuel.Camille >= 2.8.0"
+      "Microsoft.Maui.Graphics >= 7.0.92"
     ],
     "net7.0-maccatalyst16.1": [
+      "Camille.RiotGames >= 3.0.0-nightly-2022-10-18-9ee3467362",
       "CommunityToolkit.Maui >= 5.2.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 7.0.0",
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
-      "Microsoft.Maui.Graphics >= 7.0.92",
-      "MingweiSamuel.Camille >= 2.8.0"
+      "Microsoft.Maui.Graphics >= 7.0.92"
     ],
     "net7.0-windows10.0.19041": [
+      "Camille.RiotGames >= 3.0.0-nightly-2022-10-18-9ee3467362",
       "CommunityToolkit.Maui >= 5.2.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -25498,8 +26592,7 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.92",
       "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop >= 7.0.92",
-      "Microsoft.WindowsAppSDK >= 1.2.221209.1",
-      "MingweiSamuel.Camille >= 2.8.0"
+      "Microsoft.WindowsAppSDK >= 1.2.221209.1"
     ]
   },
   "packageFolders": {
@@ -25532,7 +26625,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -25563,6 +26655,10 @@
       "net7.0-android33.0": {
         "targetAlias": "net7.0-android",
         "dependencies": {
+          "Camille.RiotGames": {
+            "target": "Package",
+            "version": "[3.0.0-nightly-2022-10-18-9ee3467362, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[5.2.0, )"
@@ -25595,10 +26691,6 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
-          },
-          "MingweiSamuel.Camille": {
-            "target": "Package",
-            "version": "[2.8.0, )"
           },
           "Xamarin.Android.Glide": {
             "target": "Package",
@@ -25689,6 +26781,10 @@
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
         "dependencies": {
+          "Camille.RiotGames": {
+            "target": "Package",
+            "version": "[3.0.0-nightly-2022-10-18-9ee3467362, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[5.2.0, )"
@@ -25721,10 +26817,6 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
-          },
-          "MingweiSamuel.Camille": {
-            "target": "Package",
-            "version": "[2.8.0, )"
           }
         },
         "imports": [
@@ -25760,6 +26852,10 @@
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
         "dependencies": {
+          "Camille.RiotGames": {
+            "target": "Package",
+            "version": "[3.0.0-nightly-2022-10-18-9ee3467362, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[5.2.0, )"
@@ -25792,10 +26888,6 @@
             "target": "Package",
             "version": "[7.0.92, )",
             "autoReferenced": true
-          },
-          "MingweiSamuel.Camille": {
-            "target": "Package",
-            "version": "[2.8.0, )"
           }
         },
         "imports": [
@@ -25832,6 +26924,10 @@
       "net7.0-windows10.0.19041": {
         "targetAlias": "net7.0-windows10.0.19041.0",
         "dependencies": {
+          "Camille.RiotGames": {
+            "target": "Package",
+            "version": "[3.0.0-nightly-2022-10-18-9ee3467362, )"
+          },
           "CommunityToolkit.Maui": {
             "target": "Package",
             "version": "[5.2.0, )"
@@ -25874,10 +26970,6 @@
             "target": "Package",
             "version": "[1.2.221209.1, )",
             "autoReferenced": true
-          },
-          "MingweiSamuel.Camille": {
-            "target": "Package",
-            "version": "[2.8.0, )"
           }
         },
         "imports": [

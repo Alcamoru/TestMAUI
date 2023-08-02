@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>PCA</Machine>
+    <Machine>PCPORTABLE-ALEX</Machine>
     <WindowsUser>alcam</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-28T09:21:08.120</Modified>
+      <Modified>2023-08-02T09:09:31.608</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-28T08:53:20.094</Modified>
+      <Modified>2023-08-01T07:02:50.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TestMaui.runtimeconfig.json">
       <PackagePath>TestMaui.runtimeconfig.json</PackagePath>
-      <Modified>2023-07-28T08:05:48.502</Modified>
+      <Modified>2023-07-30T15:20:41.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TestMaui.dll">
       <PackagePath>TestMaui.dll</PackagePath>
-      <Modified>2023-07-28T09:21:06.518</Modified>
+      <Modified>2023-08-02T09:09:29.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TestMaui.exe</PackagePath>
-      <Modified>2023-07-28T09:21:06.555</Modified>
+      <Modified>2023-08-02T09:09:29.596</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TestMaui.deps.json">
       <PackagePath>TestMaui.deps.json</PackagePath>
-      <Modified>2023-07-28T08:19:49.586</Modified>
+      <Modified>2023-07-30T15:20:41.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.9\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -809,6 +809,18 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-06-09T20:10:26.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\camille.core\3.0.0-nightly-2022-10-18-9ee3467362\lib\net6.0\Camille.Core.dll">
+      <PackagePath>Camille.Core.dll</PackagePath>
+      <Modified>2022-10-18T04:10:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\camille.enums\3.0.0-nightly-2022-10-18-9ee3467362\lib\net6.0\Camille.Enums.dll">
+      <PackagePath>Camille.Enums.dll</PackagePath>
+      <Modified>2022-10-18T04:10:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\camille.riotgames\3.0.0-nightly-2022-10-18-9ee3467362\lib\net6.0\Camille.RiotGames.dll">
+      <PackagePath>Camille.RiotGames.dll</PackagePath>
+      <Modified>2022-10-18T04:10:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\communitytoolkit.maui\5.2.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
       <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
       <Modified>2023-05-26T07:59:22.000</Modified>
@@ -921,9 +933,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-11-08T19:31:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\mingweisamuel.camille\2.8.0\lib\netcoreapp3.1\Camille.dll">
-      <PackagePath>Camille.dll</PackagePath>
-      <Modified>2021-05-09T17:18:10.000</Modified>
+    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\mingweisamuel.tokenbucket\1.0.2\lib\netstandard2.0\MingweiSamuel.TokenBucket.dll">
+      <PackagePath>MingweiSamuel.TokenBucket.dll</PackagePath>
+      <Modified>2022-01-28T00:40:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\system.speech\7.0.0\runtimes\win\lib\net7.0\System.Speech.dll">
       <PackagePath>System.Speech.dll</PackagePath>
@@ -951,379 +963,359 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2023-07-25T09:46:11.774</Modified>
+      <Modified>2023-07-25T09:46:11.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.039</Modified>
+      <Modified>2023-07-30T15:12:33.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.053</Modified>
+      <Modified>2023-07-30T15:12:33.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.078</Modified>
+      <Modified>2023-07-30T15:12:33.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.108</Modified>
+      <Modified>2023-07-30T15:12:33.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.254</Modified>
+      <Modified>2023-07-30T15:12:33.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2023-07-25T09:46:11.460</Modified>
+      <Modified>2023-07-25T09:46:11.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2023-07-25T09:46:11.460</Modified>
+      <Modified>2023-07-25T09:46:11.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-2ExtraLightItalic_TRIAL.otf">
       <PackagePath>SpiegelSans-2ExtraLightItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.034</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-2ExtraLight_TRIAL.otf">
       <PackagePath>SpiegelSans-2ExtraLight_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.004</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-3LightItalic_TRIAL.otf">
       <PackagePath>SpiegelSans-3LightItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.094</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-3Light_TRIAL.otf">
       <PackagePath>SpiegelSans-3Light_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.064</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-4SemiLightItalic_TRIAL.otf">
       <PackagePath>SpiegelSans-4SemiLightItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.154</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-4SemiLight_TRIAL.otf">
       <PackagePath>SpiegelSans-4SemiLight_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.124</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-5RegularItalic_TRIAL.otf">
       <PackagePath>SpiegelSans-5RegularItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.215</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-5Regular_TRIAL.otf">
       <PackagePath>SpiegelSans-5Regular_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.185</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-6SemiBoldItalic_TRIAL.otf">
       <PackagePath>SpiegelSans-6SemiBoldItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.274</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-6SemiBold_TRIAL.otf">
       <PackagePath>SpiegelSans-6SemiBold_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.246</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-7BoldItalic_TRIAL.otf">
       <PackagePath>SpiegelSans-7BoldItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.338</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-7Bold_TRIAL.otf">
       <PackagePath>SpiegelSans-7Bold_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.307</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-8ExtraBoldItalic_TRIAL.otf">
       <PackagePath>SpiegelSans-8ExtraBoldItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.401</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-8ExtraBold_TRIAL.otf">
       <PackagePath>SpiegelSans-8ExtraBold_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.372</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-9BlackItalic_TRIAL.otf">
       <PackagePath>SpiegelSans-9BlackItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.463</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSans-9Black_TRIAL.otf">
       <PackagePath>SpiegelSans-9Black_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:44.431</Modified>
+      <Modified>2023-07-26T15:59:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-2ExtraLightItalic_TRIAL.otf">
       <PackagePath>SpiegelSansCd-2ExtraLightItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.552</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-2ExtraLight_TRIAL.otf">
       <PackagePath>SpiegelSansCd-2ExtraLight_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.516</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-3LightItalic_TRIAL.otf">
       <PackagePath>SpiegelSansCd-3LightItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.613</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-3Light_TRIAL.otf">
       <PackagePath>SpiegelSansCd-3Light_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.584</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-4SemiLightItalic_TRIAL.otf">
       <PackagePath>SpiegelSansCd-4SemiLightItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.673</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-4SemiLight_TRIAL.otf">
       <PackagePath>SpiegelSansCd-4SemiLight_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.644</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-5RegularItalic_TRIAL.otf">
       <PackagePath>SpiegelSansCd-5RegularItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.735</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-5Regular_TRIAL.otf">
       <PackagePath>SpiegelSansCd-5Regular_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.704</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-6SemiBoldItalic_TRIAL.otf">
       <PackagePath>SpiegelSansCd-6SemiBoldItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.795</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-6SemiBold_TRIAL.otf">
       <PackagePath>SpiegelSansCd-6SemiBold_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.765</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-7BoldItalic_TRIAL.otf">
       <PackagePath>SpiegelSansCd-7BoldItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.855</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-7Bold_TRIAL.otf">
       <PackagePath>SpiegelSansCd-7Bold_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.826</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-8ExtraBoldItalic_TRIAL.otf">
       <PackagePath>SpiegelSansCd-8ExtraBoldItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.914</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-8ExtraBold_TRIAL.otf">
       <PackagePath>SpiegelSansCd-8ExtraBold_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.884</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-9BlackItalic_TRIAL.otf">
       <PackagePath>SpiegelSansCd-9BlackItalic_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.976</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\SpiegelSansCd-9Black_TRIAL.otf">
       <PackagePath>SpiegelSansCd-9Black_TRIAL.otf</PackagePath>
-      <Modified>2023-07-26T15:59:43.946</Modified>
+      <Modified>2023-07-26T15:59:43.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-07-27T18:29:11.261</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.586</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.598</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.608</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.625</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.682</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.354</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.360</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.385</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.365</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.376</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.324</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.327</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.346</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.331</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.334</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.273</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.279</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.283</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.290</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.300</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.304</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.308</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.321</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.311</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.314</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.455</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.460</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.467</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.476</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.496</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.427</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.432</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.436</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.442</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.450</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.393</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.397</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.401</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.412</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.423</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.502</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.510</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.525</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.541</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-07-27T18:29:11.576</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.431</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.444</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.464</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.494</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-07-27T11:50:48.568</Modified>
+      <Modified>2023-07-30T15:12:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lose.scale-100.png">
       <PackagePath>lose.scale-100.png</PackagePath>
-      <Modified>2023-07-26T16:28:41.261</Modified>
+      <Modified>2023-07-26T16:28:41.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\smurf.scale-100.png">
       <PackagePath>smurf.scale-100.png</PackagePath>
-      <Modified>2023-07-26T16:32:57.105</Modified>
+      <Modified>2023-07-26T16:32:57.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\win.scale-100.png">
       <PackagePath>win.scale-100.png</PackagePath>
-      <Modified>2023-07-26T16:25:27.617</Modified>
+      <Modified>2023-07-26T16:25:27.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

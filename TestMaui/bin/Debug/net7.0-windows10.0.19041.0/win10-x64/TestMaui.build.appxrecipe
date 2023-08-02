@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>PCA</Machine>
+    <Machine>PCPORTABLE-ALEX</Machine>
     <WindowsUser>alcam</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -607,6 +607,15 @@
     <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\camille.core\3.0.0-nightly-2022-10-18-9ee3467362\lib\net6.0\Camille.Core.dll">
+      <PackagePath>Camille.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\camille.enums\3.0.0-nightly-2022-10-18-9ee3467362\lib\net6.0\Camille.Enums.dll">
+      <PackagePath>Camille.Enums.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\camille.riotgames\3.0.0-nightly-2022-10-18-9ee3467362\lib\net6.0\Camille.RiotGames.dll">
+      <PackagePath>Camille.RiotGames.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\communitytoolkit.maui\5.2.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
       <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
     </AppxPackagedFile>
@@ -691,8 +700,8 @@
     <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\mingweisamuel.camille\2.8.0\lib\netcoreapp3.1\Camille.dll">
-      <PackagePath>Camille.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\mingweisamuel.tokenbucket\1.0.2\lib\netstandard2.0\MingweiSamuel.TokenBucket.dll">
+      <PackagePath>MingweiSamuel.TokenBucket.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\.nuget\packages\system.speech\7.0.0\runtimes\win\lib\net7.0\System.Speech.dll">
       <PackagePath>System.Speech.dll</PackagePath>
@@ -969,21 +978,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lose.scale-100.png">
       <PackagePath>lose.scale-100.png</PackagePath>

@@ -8,56 +8,122 @@
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
                 <RowDefinition 
-                    Height="200">
+                    Height="160">
                     
                 </RowDefinition>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition
-                    Width="200"></ColumnDefinition>
+                    Width="400"></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Frame
-                Grid.Row="0"
-                Grid.Column="0"
-                CornerRadius="15"
-                Padding="0"
-                WidthRequest="120"
-                HeightRequest="120"
-                VerticalOptions="Center">
-                <Image x:Name="profileIcon"
-                ></Image>
-            </Frame>
+            <StackLayout 
+                Grid.ColumnSpan="2">
+                <Label 
+                    x:Name="TitleLabel"
+                    Margin="0, 20, 0 ,0"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontFamily="Spiegel"
+                    FontSize="24"
+                    CharacterSpacing="1.5"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"></Label>
+                
+            </StackLayout>
+            <VerticalStackLayout
+                Grid.Row="1"
+                Grid.Column="0">
+                <Frame
+                    CornerRadius="15"
+                    Padding="0"
+                    WidthRequest="120"
+                    HeightRequest="120"
+                    VerticalOptions="Center">
+                    <Image x:Name="ProfileIcon"
+                    ></Image>
+                </Frame>
+                <Label x:Name="SummonerNameLabel"
+                       HorizontalOptions="Center"></Label>
+            </VerticalStackLayout>
             <HorizontalStackLayout
-                x:Name="menuLayout"
-                Grid.Row="0"
-                Grid.Column="1"
-                HorizontalOptions="Center"
-                VerticalOptions="Start"
-                Spacing="20">
-                <Button 
-                    Text="Profil"
-                    CornerRadius="12"
-                    TextColor="Black"
-                    FontFamily="Spiegel"
-                    CharacterSpacing="1.5"
-                    FontSize="16"
-                    BackgroundColor="#E55039"
+                    x:Name="MenuLayout"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Center"
+                    Spacing="20">
+                    <Button 
+                        Text="Profil"
+                        CornerRadius="12"
+                        TextColor="Black"
+                        FontFamily="Spiegel"
+                        CharacterSpacing="1.5"
+                        FontSize="16"
+                        BackgroundColor="#E55039"
                         WidthRequest="200"></Button>
-                <Button 
-                    Text="Champions"
-                    CornerRadius="12"
-                    TextColor="Black"
-                    FontFamily="Spiegel"
-                    CharacterSpacing="1.5"
-                    FontSize="16"
-                    BackgroundColor="#E55039"
-                    WidthRequest="200"></Button>
-            </HorizontalStackLayout>
-            
-            
+                    <Button 
+                        Text="Champions"
+                        CornerRadius="12"
+                        TextColor="Black"
+                        FontFamily="Spiegel"
+                        CharacterSpacing="1.5"
+                        FontSize="16"
+                        BackgroundColor="#E55039"
+                        WidthRequest="200"></Button>
+                </HorizontalStackLayout>
+            <VerticalStackLayout 
+                Grid.Row="2" 
+                Grid.Column="0"
+                BackgroundColor="Red">
+                <Label x:Name="LevelLabel"
+                       HorizontalOptions="Center"></Label>
+                <VerticalStackLayout>
+                    <Label x:Name="ChampionsStatsTitleLabel"
+                           Text="Performances"
+                           HorizontalOptions="Center"></Label>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image x:Name="ChampionIconImage"
+                               WidthRequest="80"
+                               HeightRequest="80"
+                               Grid.Column="0"></Image>
+                        <VerticalStackLayout 
+                            Margin="15, 0, 15, 0"
+                            VerticalOptions="Center"
+                            Grid.Column="1">
+                            <Label x:Name="ChampionNameLabel"
+                                   FontFamily="Spiegel"
+                                   FontSize="26"></Label>
+                            <Label x:Name="ChampionKdaLabel"
+                                   FontFamily="Spiegel"
+                                   FontSize="18"></Label>
+                    
+                        </VerticalStackLayout>
+                        <HorizontalStackLayout
+                            Grid.Column="2"
+                            VerticalOptions="Center"
+                            Spacing="10">
+                            <Label x:Name="WinrateLabel"
+                               FontFamily="Spiegel"
+                               ></Label>
+                            <Label x:Name="ChampionWinsLoses"
+                                   FontFamily="Spiegel"></Label>
+                        </HorizontalStackLayout>
+
+                    </Grid>
+
+                </VerticalStackLayout>
+            </VerticalStackLayout>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

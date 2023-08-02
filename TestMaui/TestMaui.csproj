@@ -49,9 +49,9 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="Camille.RiotGames" Version="3.0.0-nightly-2022-10-18-9ee3467362" />
         <PackageReference Include="CommunityToolkit.Maui" Version="5.2.0" />
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
-        <PackageReference Include="MingweiSamuel.Camille" Version="2.8.0" />
     </ItemGroup>
 
     <ItemGroup>

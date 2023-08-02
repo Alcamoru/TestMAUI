@@ -1,15 +1,16 @@
-﻿using CommunityToolkit.Maui.Alerts;
+﻿using Camille.Enums;
+using Camille.RiotGames;
+using CommunityToolkit.Maui.Alerts;
 using CommunityToolkit.Maui.Views;
-using MingweiSamuel.Camille;
 using static Microsoft.Maui.Controls.VisualMarker;
-using Region = MingweiSamuel.Camille.Enums.Region;
+using Platform = Microsoft.Maui.ApplicationModel.Platform;
 
 namespace TestMaui;
 
 public partial class MainPage : ContentPage
 {
     public string summonerName;
-
+    
     public MainPage()
     {
         InitializeComponent();
@@ -36,22 +37,22 @@ public partial class MainPage : ContentPage
     }
 
 
-    private void GetSummoner(string summonerNameArg)
+    async private void GetSummoner(string summonerNameArg)
     {
         var streamReader =
             new StreamReader(
                 @"C:\Users\alcam\OneDrive\Documents\Developpement\wintest\TestMaui\TestMaui\RIOT_TOKEN.txt");
         var token = streamReader.ReadLine();
-        var api = RiotApi.NewInstance(token ?? throw new InvalidOperationException());
+        var api = RiotGamesApi.NewInstance(token);
         try
         {
-            var summoner = api.SummonerV4.GetBySummonerName(Region.EUW, summonerNameArg);
-            Navigation.PushAsync(new SummonerInfoPage(api, summoner));
-            summonerNameEntry.Text = "";
+            var summoner = api.SummonerV4().GetBySummonerName(PlatformRoute.EUW1, summonerNameArg);
+            await Navigation.PushAsync(new SummonerInfoPage(api, summoner));
+                summonerNameEntry.Text = "";
         }
         catch (AggregateException e)
         {
-            this.ShowPopup(new ErrorPopupPage("Ce nom d'invocateur est invalide"));
+            this.ShowPopup(new ErrorPopupPage("Ce nom d'invocateur est invalide" + e.Message));
         }
     }
 }

@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v7.0/win10-x64": {
       "TestMaui/1.0": {
         "dependencies": {
+          "Camille.RiotGames": "3.0.0-nightly-2022-10-18-9ee3467362",
           "CommunityToolkit.Maui": "5.2.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -18,7 +19,6 @@
           "Microsoft.Maui.Graphics": "7.0.92",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.92",
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
-          "MingweiSamuel.Camille": "2.8.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.9",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.92",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.92",
@@ -793,6 +793,35 @@
           }
         }
       },
+      "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "runtime": {
+          "lib/net6.0/Camille.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "runtime": {
+          "lib/net6.0/Camille.Enums.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+        "dependencies": {
+          "Camille.Core": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "Camille.Enums": "3.0.0-nightly-2022-10-18-9ee3467362",
+          "MingweiSamuel.TokenBucket": "1.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/Camille.RiotGames.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
       "CommunityToolkit.Maui/5.2.0": {
         "dependencies": {
           "CommunityToolkit.Maui.Core": "5.2.0"
@@ -1019,11 +1048,11 @@
           }
         }
       },
-      "MingweiSamuel.Camille/2.8.0": {
+      "MingweiSamuel.TokenBucket/1.0.2": {
         "runtime": {
-          "lib/netcoreapp3.1/Camille.dll": {
-            "assemblyVersion": "2.8.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.0/MingweiSamuel.TokenBucket.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
           }
         }
       },
@@ -1067,6 +1096,27 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "Camille.Core/3.0.0-nightly-2022-10-18-9ee3467362": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FA1Z4O4/JLn9OXPsEV0oXt6tX8GmeGNc3bRATGYcghDTjs6FdO7A2nbOTcoIaUmjwmlHBjg/OY/Ay2gM3hpx4g==",
+      "path": "camille.core/3.0.0-nightly-2022-10-18-9ee3467362",
+      "hashPath": "camille.core.3.0.0-nightly-2022-10-18-9ee3467362.nupkg.sha512"
+    },
+    "Camille.Enums/3.0.0-nightly-2022-10-18-9ee3467362": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S12FmTSpCY86E2LWv6gkvH4Uzvos6Kn1dnanWHwCaQUETZS0AlL84VZhkTuMe1JBFFNM005FDn7eK6rZ8B71xQ==",
+      "path": "camille.enums/3.0.0-nightly-2022-10-18-9ee3467362",
+      "hashPath": "camille.enums.3.0.0-nightly-2022-10-18-9ee3467362.nupkg.sha512"
+    },
+    "Camille.RiotGames/3.0.0-nightly-2022-10-18-9ee3467362": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zOqUnwGH1gYd/rZSqylcA0q3TsAKz0xNAJSUl9BHJKnsyJzYAYQD9+U8j+xhSDG6rq/hA2BpFRRA3exbbUTSoQ==",
+      "path": "camille.riotgames/3.0.0-nightly-2022-10-18-9ee3467362",
+      "hashPath": "camille.riotgames.3.0.0-nightly-2022-10-18-9ee3467362.nupkg.sha512"
     },
     "CommunityToolkit.Maui/5.2.0": {
       "type": "package",
@@ -1180,12 +1230,12 @@
       "path": "microsoft.windowsappsdk/1.2.221209.1",
       "hashPath": "microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512"
     },
-    "MingweiSamuel.Camille/2.8.0": {
+    "MingweiSamuel.TokenBucket/1.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2uM7RcZvkbwmBiLAACOdrm5DKCJF3i/NcneEnFFVwQ+hhwKQRTLudoI3ToEVbsKl532OIl5TC8fNLPgyKBv6Uw==",
-      "path": "mingweisamuel.camille/2.8.0",
-      "hashPath": "mingweisamuel.camille.2.8.0.nupkg.sha512"
+      "sha512": "sha512-gD+DrZw+HdKQ5D4NTYSaU6Er58nvClYJIoCOn/+gpKzlA2YBaaDI1xyQC4u1kaQ5b3/Onitif1sBgRfqpbWHTQ==",
+      "path": "mingweisamuel.tokenbucket/1.0.2",
+      "hashPath": "mingweisamuel.tokenbucket.1.0.2.nupkg.sha512"
     },
     "System.Speech/7.0.0": {
       "type": "package",

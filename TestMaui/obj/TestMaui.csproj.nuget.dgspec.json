@@ -30,7 +30,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,6 +60,10 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "Camille.RiotGames": {
+              "target": "Package",
+              "version": "[3.0.0-nightly-2022-10-18-9ee3467362, )"
+            },
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[5.2.0, )"
@@ -93,10 +96,6 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
-            },
-            "MingweiSamuel.Camille": {
-              "target": "Package",
-              "version": "[2.8.0, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -187,6 +186,10 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "Camille.RiotGames": {
+              "target": "Package",
+              "version": "[3.0.0-nightly-2022-10-18-9ee3467362, )"
+            },
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[5.2.0, )"
@@ -219,10 +222,6 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
-            },
-            "MingweiSamuel.Camille": {
-              "target": "Package",
-              "version": "[2.8.0, )"
             }
           },
           "imports": [
@@ -258,6 +257,10 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "Camille.RiotGames": {
+              "target": "Package",
+              "version": "[3.0.0-nightly-2022-10-18-9ee3467362, )"
+            },
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[5.2.0, )"
@@ -290,10 +293,6 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
-            },
-            "MingweiSamuel.Camille": {
-              "target": "Package",
-              "version": "[2.8.0, )"
             }
           },
           "imports": [
@@ -330,6 +329,10 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "Camille.RiotGames": {
+              "target": "Package",
+              "version": "[3.0.0-nightly-2022-10-18-9ee3467362, )"
+            },
             "CommunityToolkit.Maui": {
               "target": "Package",
               "version": "[5.2.0, )"
@@ -372,10 +375,6 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
-            },
-            "MingweiSamuel.Camille": {
-              "target": "Package",
-              "version": "[2.8.0, )"
             }
           },
           "imports": [
