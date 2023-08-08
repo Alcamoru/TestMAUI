@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Camille.Enums;
 using Camille.RiotGames;
-using Camille.RiotGames.MatchV5;
 using Camille.RiotGames.SummonerV4;
-using CommunityToolkit.Maui.Views;
 
 namespace TestMaui;
 
@@ -21,75 +15,97 @@ public partial class SummonerInfoPage : ContentPage
     private async void GetStats(RiotGamesApi api, Summoner summoner)
     {
         InitializeComponent();
-        int profileIconId = summoner.ProfileIconId;
-        ProfileIcon.Source = 
-            ImageSource.FromUri(new Uri($"http://ddragon.leagueoflegends.com/cdn/13.11.1/img/profileicon/{profileIconId}.png"));
+        var profileIconId = summoner.ProfileIconId;
+        ProfileIcon.Source =
+            ImageSource.FromUri(
+                new Uri($"http://ddragon.leagueoflegends.com/cdn/13.11.1/img/profileicon/{profileIconId}.png"));
         TitleLabel.Text = summoner.Name + " en Ranked";
         SummonerNameLabel.Text = summoner.Name;
         LevelLabel.Text = "Level " + summoner.SummonerLevel;
-        var ids = api.MatchV5().GetMatchIdsByPUUID(RegionalRoute.EUROPE, summoner.Puuid, count: 20);
-        List<Match> matches = new();
-        Dictionary<string, Dictionary<string, int>> topChamps = new Dictionary<string, Dictionary<string, int>>();
+        var ids = api.MatchV5().GetMatchIdsByPUUID(RegionalRoute.EUROPE, summoner.Puuid, 20);
+        List<Dictionary<string, string>> champList = new();
         foreach (var id in ids)
         {
+            var match = api.MatchV5().GetMatchAsync(RegionalRoute.EUROPE, id);
             try
             {
-                var match = api.MatchV5().GetMatchAsync(RegionalRoute.EUROPE, id);
-                foreach (Participant participant in match.Result.Info.Participants)
-                {
+                foreach (var participant in match.Result.Info.Participants)
                     if (participant.SummonerName.Equals("Alcamoru"))
-                    {
-                        if (topChamps.ContainsKey(participant.ChampionName))
-                        {
-                            if (participant.Win)
+
+                        foreach (var champion in champList)
+                            if (champion["ChampionName"] == participant.ChampionName)
                             {
-                                topChamps[participant.ChampionName]["wins"] += 1;
+                                if (participant.Win)
+                                    champion["wins"] = (int.Parse(champion["wins"]) + 1).ToString();
+                                else
+                                    champion["loses"] = (int.Parse(champion["loses"]) + 1).ToString();
+                                champion["nmatches"] = (int.Parse(champion["nmatches"]) + 1).ToString();
+                                champion["kills"] = (int.Parse(champion["kills"]) + participant.Kills).ToString();
+                                champion["deaths"] = (int.Parse(champion["deaths"]) + participant.Deaths).ToString();
+                                champion["assists"] = (int.Parse(champion["assists"]) + participant.Assists).ToString();
                             }
                             else
                             {
-                                topChamps[participant.ChampionName]["loses"] += 1;
-                            }
+                                var championDict = new Dictionary<string, string>();
+                                if (participant.Win)
+                                {
+                                    championDict.Add("wins", "1");
+                                    championDict.Add("loses", "0");
+                                }
+                                else
+                                {
+                                    championDict.Add("wins", "0");
+                                    championDict.Add("loses", "1");
+                                }
 
-                            topChamps[participant.ChampionName]["nmatches"] += 1;
-                            topChamps[participant.ChampionName]["kills"] += participant.Kills;
-                            topChamps[participant.ChampionName]["deaths"] += participant.Deaths;
-                            topChamps[participant.ChampionName]["assists"] += participant.Assists;
-                        }
-                        else
-                        {
-                            Dictionary<string, int> statsDict = new Dictionary<string, int>();
-                            if (participant.Win)
-                            {
-                                statsDict.Add("wins", 1);
-                                statsDict.Add("loses", 0);
+                                championDict.Add("nmatches", "1");
+                                championDict.Add("kills", participant.Kills.ToString());
+                                championDict.Add("deaths", participant.Deaths.ToString());
+                                championDict.Add("assists", participant.Assists.ToString());
+                                champList.Add(championDict);
                             }
-                            else
-                            {
-                                statsDict.Add("wins", 0);
-                                statsDict.Add("loses", 1);
-                            }
-
-                            statsDict.Add("nmatches", 1);
-                            statsDict.Add("kills", participant.Kills);
-                            statsDict.Add("deaths", participant.Deaths);
-                            statsDict.Add("assists", participant.Assists);
-                            topChamps.Add(participant.ChampionName, statsDict);
-                        }
-                    }
-                }
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                Debug.WriteLine(e);
+            }
+            
+
+        }
+        
+        foreach (var champ in SortTopChamps(champList))
+        {
+            foreach (var value in champ)
+            {
+                Debug.WriteLine(value.Key);
+
+                Debug.WriteLine(value.Value);
             }
         }
 
-        var champ = topChamps.First();
+
+        /*var champ = topChamps.First();
         double champKDA = (champ.Value["kills"] + champ.Value["assists"]) / champ.Value["deaths"];
         ChampionIconImage.Source = ImageSource.FromUri(new Uri($"http://ddragon.leagueoflegends.com/cdn/13.12.1/img/champion/{champ.Key}.png"));
         ChampionKdaLabel.Text = champKDA.ToString() + " KDA";
         ChampionNameLabel.Text = champ.Key;
         ChampionWinsLoses.Text = champ.Value["wins"].ToString() + "W/" + champ.Value["loses"].ToString() + "L";
-        WinrateLabel.Text = (champ.Value["wins"] / (champ.Value["wins"] + champ.Value["loses"]) * 100).ToString() + "%";
+        WinrateLabel.Text = (champ.Value["wins"] / (champ.Value["wins"] + champ.Value["loses"]) * 100).ToString() + "%";*/
+    }
+
+    private List<Dictionary<string, string>> SortTopChamps(List<Dictionary<string, string>> topChampsArg)
+    {
+        var topChampsArgSorted = topChampsArg.OrderBy(dictionnary => int.Parse(dictionnary["nmatches"]));
+
+        return topChampsArgSorted.ToList();
+
+        /*Dictionary<string, string> mostPlayed = new Dictionary<string, string>();
+        foreach (Dictionary<string,string> dictionary in topChampsArg)
+        {
+            if (int.Parse(dictionary["nmatches"]) >= int.Parse(mostPlayed["nmatches"]))
+            {
+                mostPlayed = dictionary;
+            }
+        }*/
     }
 }
