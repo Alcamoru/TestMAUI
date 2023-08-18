@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using Camille.Enums;
+﻿using Camille.Enums;
 using Camille.RiotGames;
 using Camille.RiotGames.SummonerV4;
 
@@ -29,20 +28,26 @@ public partial class SummonerInfoPage : ContentPage
             var match = api.MatchV5().GetMatchAsync(RegionalRoute.EUROPE, id);
             try
             {
-                foreach (var participant in match.Result.Info.Participants)
-                    if (participant.SummonerName.Equals("Alcamoru"))
-
+                foreach (var participant in match.Result.Info.Participants) {
+                    if (participant.SummonerName == summoner.Name)
+                    {
                         foreach (var champion in champList)
+                        {
                             if (champion["ChampionName"] == participant.ChampionName)
                             {
                                 if (participant.Win)
+                                {
                                     champion["wins"] = (int.Parse(champion["wins"]) + 1).ToString();
+                                }
+
                                 else
+                                {
                                     champion["loses"] = (int.Parse(champion["loses"]) + 1).ToString();
-                                champion["nmatches"] = (int.Parse(champion["nmatches"]) + 1).ToString();
-                                champion["kills"] = (int.Parse(champion["kills"]) + participant.Kills).ToString();
-                                champion["deaths"] = (int.Parse(champion["deaths"]) + participant.Deaths).ToString();
-                                champion["assists"] = (int.Parse(champion["assists"]) + participant.Assists).ToString();
+                                    champion["nmatches"] = (int.Parse(champion["nmatches"]) + 1).ToString();
+                                    champion["kills"] = (int.Parse(champion["kills"]) + participant.Kills).ToString();
+                                    champion["deaths"] = (int.Parse(champion["deaths"]) + participant.Deaths).ToString();
+                                    champion["assists"] = (int.Parse(champion["assists"]) + participant.Assists).ToString();
+                                }
                             }
                             else
                             {
@@ -59,27 +64,32 @@ public partial class SummonerInfoPage : ContentPage
                                 }
 
                                 championDict.Add("nmatches", "1");
+                                championDict.Add("ChampionName", participant.ChampionName);
                                 championDict.Add("kills", participant.Kills.ToString());
                                 championDict.Add("deaths", participant.Deaths.ToString());
                                 championDict.Add("assists", participant.Assists.ToString());
                                 champList.Add(championDict);
                             }
+                        }
+                    }
+                }
+                    
             }
             catch (Exception e)
             {
-                Debug.WriteLine(e);
+                System.Diagnostics.Debug.WriteLine(e);
             }
             
 
         }
-        
+        System.Diagnostics.Debug.WriteLine(champList.Count);
         foreach (var champ in SortTopChamps(champList))
         {
             foreach (var value in champ)
             {
-                Debug.WriteLine(value.Key);
+                System.Diagnostics.Debug.WriteLine(value.Key);
 
-                Debug.WriteLine(value.Value);
+                System.Diagnostics.Debug.WriteLine(value.Value);
             }
         }
 
